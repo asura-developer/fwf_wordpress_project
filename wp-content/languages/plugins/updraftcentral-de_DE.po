@@ -1,0 +1,1177 @@
+# Translation of Plugins - UpdraftCentral Dashboard - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - UpdraftCentral Dashboard - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-12-21 21:13:26+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - UpdraftCentral Dashboard - Stable (latest release)\n"
+
+#: modules/advancedtools/translations-dashboard.php:10
+msgid "Files"
+msgstr "Dateien"
+
+#: modules/advancedtools/translations-dashboard.php:11
+msgid "Options"
+msgstr "Optionen"
+
+#: modules/updates/translations-dashboard.php:20
+msgid "Plugin"
+msgstr "Plugin"
+
+#: modules/updates/translations-dashboard.php:21
+msgid "Theme"
+msgstr "Theme"
+
+#: modules/updates/translations-dashboard.php:23
+msgid "WordPress"
+msgstr "WordPress"
+
+#: modules/updates/translations-dashboard.php:7
+msgid "Type"
+msgstr "Typ"
+
+#: modules/updraftvault/translations-dashboard.php:13
+#: modules/updates/translations-dashboard.php:8
+msgid "Name"
+msgstr "Name"
+
+#: modules/updates/translations-dashboard.php:18
+msgid "by"
+msgstr "von"
+
+#: modules/updraftplus/translations-dashboard.php:94
+msgid "Admin Username"
+msgstr "Admin-Benutzername"
+
+#: modules/updraftplus/translations-dashboard.php:96
+msgid "Admin API Key"
+msgstr "Admin-API-Schlüssel "
+
+#: dashboard-translations.php:106
+msgid "Empty"
+msgstr "Leer"
+
+#: modules/updraftplus/translations-dashboard.php:98
+msgid "New User's Email Address"
+msgstr "E-Mail-Adresse des neuen Benutzers"
+
+#: modules/updraftplus/translations-dashboard.php:97
+msgid "New User's Username"
+msgstr "Benutzername des neuen Benutzers"
+
+#: modules/updates/translations-dashboard.php:42
+msgid "You do not have permission to update this item"
+msgstr "Du hast keine Berechtigung, diesen Beitrag zu aktualisieren."
+
+#: modules/updates/translations-dashboard.php:41
+msgid "The item to update was not found (has it been removed?)"
+msgstr "Das zu aktualisierende Element wurde nicht gefunden (wurde es entfernt?)"
+
+#: modules/updates/translations-dashboard.php:40
+msgid "Update failed"
+msgstr "Aktualisierung gescheitert"
+
+#: modules/updates/translations-dashboard.php:34
+#: modules/updates/translations-dashboard.php:35
+msgid "%s version required"
+msgstr "%s Version erforderlich"
+
+#: modules/updates/translations-dashboard.php:33
+msgid "Your WordPress site is fully up to date."
+msgstr "Deine WordPress-Website ist vollständig aktuell."
+
+#: modules/updates/translations-dashboard.php:19
+msgid "New version available"
+msgstr "Neue Version verfügbar"
+
+#: modules/updates/translations-dashboard.php:11
+msgid "Actions"
+msgstr "Aktionen"
+
+#: modules/updates/translations-dashboard.php:10
+msgid "Action"
+msgstr "Aktion"
+
+#: modules/updates/translations-dashboard.php:29
+msgid "Automatic backup before update"
+msgstr "Automatisches Backup vor der Aktualisierung"
+
+#: modules/updates/translations-dashboard.php:12
+msgid "Connection information"
+msgstr "Verbindungs-Information"
+
+#: modules/updates/templates/site-row-buttons.php:2
+#: modules/updates/templates/site-row-buttons.php:4
+#: modules/advancedtools/templates/site-row-buttons.php:2
+msgid "Show updates"
+msgstr "Zeige Aktualisierungen"
+
+#: modules/updates/translations-dashboard.php:55 modules/updates/loader.php:86
+msgid "Updates"
+msgstr "Aktualisierungen"
+
+#: modules/updraftplus/translations-dashboard.php:95
+msgid "New API user"
+msgstr "Neuer API-Benutzer"
+
+#: modules/updates/translations-dashboard.php:31
+msgid "download"
+msgstr "herunterladen"
+
+#: modules/updates/translations-dashboard.php:24
+msgid "current"
+msgstr "aktuell"
+
+#: modules/updates/translations-dashboard.php:25
+msgid "Changelog"
+msgstr "Änderungsprotokoll"
+
+#: modules/updraftplus/translations-dashboard.php:100
+msgid "US or UK Rackspace Account"
+msgstr "US- oder UK-Rackspace-Konto"
+
+#: modules/updates/translations-dashboard.php:30
+msgid "Cannot update"
+msgstr "Kann nicht aktualisieren"
+
+#: modules/updates/translations-dashboard.php:17
+#: modules/updates/translations-dashboard.php:27
+msgid "Update information"
+msgstr "Update-Information"
+
+#: modules/updraftvault/templates/management-actions.php:10
+#: modules/wpo/templates/management-actions.php:10
+#: modules/eum/templates/management-actions.php:10
+#: modules/updates/templates/management-actions.php:10
+#: modules/advancedtools/templates/management-actions.php:10
+msgid "Choose another site to manage %s on"
+msgstr "Wähle eine andere Website, um %s darauf zu verwalten"
+
+#: dashboard-translations.php:109
+msgid "The UpdraftCentral browser cache was emptied - %s items were removed"
+msgstr "Der UpdraftCentral-Browsercache wurde geleert - %s Elemente wurden entfernt"
+
+#: dashboard-translations.php:108
+msgid "The UpdraftCentral browser cache currently has no contents"
+msgstr "Der UpdraftCentral-Browsercache hat aktuell keine Inhalte"
+
+#: dashboard-translations.php:105
+msgid "UC browser cache"
+msgstr "UC-Browsercache"
+
+#: dashboard-translations.php:110
+msgid "The UpdraftCentral browser cache contents have been logged in the browser developer console."
+msgstr "Die UpdraftCentral-Browsercache-Inhalte wurden in der Entwickler-Konsole des Browsers protokolliert."
+
+#: modules/updraftplus/translations-dashboard.php:102
+msgid "Enter your Rackspace admin username/API key (so that Rackspace can authenticate your permission to create new users), and enter a new (unique) username and email address for the new user and a container name."
+msgstr "Gib deinen Rackspace-Admin-Benutzernamen/API-Schlüssel ein (so dass Rackspace deine Berechtigung, neue Benutzer anzulegen prüfen kann), und gib einen neuen (einmaligen) Benutzernamen und E-Mail-Adresse für den neuen Benutzer und einen Containernamen ein."
+
+#: modules/updraftplus/translations-dashboard.php:99
+msgid "Cloud Files Container"
+msgstr "Cloud-Dateien-Container"
+
+#: modules/updraftplus/translations-dashboard.php:101
+msgid "Cloud Files Storage Region:"
+msgstr "Cloud-Dateien-Speicher-Region:"
+
+#: dashboard-translations.php:107
+msgid "Log contents"
+msgstr "Protokollinhalte"
+
+#: dashboard-translations.php:39
+msgid "timeout"
+msgstr "Zeitüberschreitung"
+
+#: modules/updates/translations-dashboard.php:16
+msgid "Update to"
+msgstr "Aktualisierung auf"
+
+#: modules/updates/translations-dashboard.php:32
+msgid "Save these credentials locally in your web browser"
+msgstr "Diese Anmeldedaten lokal in deinem Browser speichern"
+
+#: modules/updates/translations-dashboard.php:13
+msgid "Updating..."
+msgstr "Aktualisiere …"
+
+#: modules/updates/translations-dashboard.php:15
+msgid "Show messages..."
+msgstr "Zeige Nachrichten …"
+
+#: modules/updates/translations-dashboard.php:14
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: modules/updates/translations-dashboard.php:22
+msgid "WordPress core"
+msgstr "WordPress-Kern"
+
+#. Plugin Name of the plugin
+msgid "UpdraftCentral Dashboard"
+msgstr "UpdraftCentral Dashboard"
+
+#: dashboard-translations.php:95
+msgid "Opening a new window/tab"
+msgstr "Ein neues Fenster/Tab öffnen"
+
+#: dashboard-translations.php:94
+msgid "The request to open a new browser window/tab was made, but that window/tab was not immediately found - if you have a pop-up blocker, then please check it (e.g. it may be showing something in the browser address bar)."
+msgstr "Die Anfrage, ein neues Browserfenster/Tab zu öffnen, wurde gemacht, aber dieses Fenster/Tab wurde nicht sofort gefunden - falls du einen Pop-up-Blocker benutzt, prüfe das bitte (z.B. könnte etwas in der Browser-Adressleiste angezeigt werden)."
+
+#: templates/wp-admin/dashboard-page.php:19
+msgid "Pages -> Add New"
+msgstr "Seiten -> Erstellen"
+
+#. Author of the plugin
+msgid "David Anderson + Team Updraft"
+msgstr "David Anderson + Team Updraft"
+
+#. Author URI of the plugin
+msgid "https://www.simbahosting.co.uk/s3/shop/"
+msgstr "https://www.simbahosting.co.uk/s3/shop/"
+
+#. Plugin URI of the plugin
+msgid "https://updraftcentral.com"
+msgstr "https://updraftcentral.com"
+
+#: templates/wp-admin/dashboard-page.php:15
+msgid "Getting started"
+msgstr "Jetzt loslegen"
+
+#: templates/wp-admin/dashboard-page.php:25
+msgid "Then, to start using UpdraftCentral, simply visit the page, and you can begin adding sites."
+msgstr "Um dann mit der Nutzung von UpdraftCentral zu starten, besuche einfach die Seite, und du kannst beginnen, Websites hinzuzufügen."
+
+#: templates/wp-admin/dashboard-page.php:19
+msgid "UpdraftCentral runs on the front-end of your site. To get started, you must create a front-end page for your site, to contain the dashboard. i.e. Go to %s."
+msgstr "UpdraftCentral läuft auf dem Frontend deiner Website. Um starten zu können, musst du eine Frontend-Seite für deine Website erstellen, die das Dashboard enthält, z.B. Gehe zu %s."
+
+#: templates/wp-admin/dashboard-page.php:17
+msgid "Welcome to UpdraftCentral! This is the dashboard plugin, which you install on the site where you want to have your dashboard for controlling other sites. (On the controlled sites, you install UpdraftPlus)."
+msgstr "Willkommen bei UpdraftCentral! Dies ist das Dashboard-Plugin, welches du auf der Website installierst, auf der du dein Dashboard haben möchtest, um andere Websites zu steuern. (Auf den zu steuernden Websites installierst du UpdraftPlus)."
+
+#: templates/wp-admin/dashboard-page.php:21
+msgid "In your new front-end page, put this shortcode: [updraft_central] . This will allow logged-in site administrators, who visit that page, to use UpdraftCentral."
+msgstr "Füge diesen Shortcode: [updraft_central] deiner neuen Frontend-Seite hinzu. Dies wird angemeldeten Website-Administratoren, die diese Seite besuchen, ermöglichen, UpdraftCentral zu benutzen."
+
+#: templates/wp-admin/dashboard-page.php:10
+#: modules/updates/translations-dashboard.php:9
+msgid "Version"
+msgstr "Version"
+
+#: templates/wp-admin/dashboard-page.php:10
+msgid "More plugins"
+msgstr "Weitere Plugins"
+
+#: templates/wp-admin/dashboard-page.php:9
+msgid "Lead developer's homepage"
+msgstr "Homepage der Hauptentwickler"
+
+#: templates/wp-admin/dashboard-page.php:8
+msgid "Newsletter sign-up"
+msgstr "Newsletter-Anmeldung"
+
+#: templates/wp-admin/dashboard-page.php:7
+msgid "Suggest idea"
+msgstr "Idee vorschlagen"
+
+#: modules/updraftplus/loader.php:58
+#: modules/updraftplus/templates/site-row-buttons.php:18
+msgid "Backup settings"
+msgstr "Backup-Einstellungen"
+
+#: templates/wp-admin/dashboard-page.php:5
+msgid "Twitter"
+msgstr "Twitter"
+
+#: templates/wp-admin/dashboard-page.php:4
+msgid "News"
+msgstr "Nachrichten"
+
+#: templates/wp-admin/dashboard-page.php:1
+msgid "Remote Control for WordPress"
+msgstr "Fernsteuerung für WordPress "
+
+#: modules/updraftplus/templates/management-actions.php:10
+msgid "Choose another site to manage backups on"
+msgstr "Wähle eine andere Website, um dort Backups zu verwalten"
+
+#: modules/updraftvault/translations-dashboard.php:14
+#: modules/updraftplus/templates/management-actions-oldcopy-keep.php:13
+msgid "Download"
+msgstr "Herunterladen"
+
+#: templates/sites/site-row.php:12 templates/sites/site-row.php:25
+msgid "A licence is required to manage this site"
+msgstr "Eine Lizenz ist erforderlich, um diese Website zu verwalten"
+
+#: templates/sites/site-row.php:35 templates/sites/site-row.php:37
+#: modules/updraftplus/translations-dashboard.php:109
+#: modules/updraftplus/templates/management-actions-oldcopy-keep.php:7
+#: modules/updraftplus/templates/site-row-buttons.php:3
+#: modules/updraftplus/templates/site-row-buttons.php:5
+msgid "Backup"
+msgstr "Backup"
+
+#: modules/updraftplus/templates/management-actions-oldcopy-keep.php:10
+msgid "Restore"
+msgstr "Wiederherstellen"
+
+#: templates/sites/site-menu.php:13 templates/sites/site-menu.php:22
+#: modules/updraftplus/loader.php:66
+msgid "Site configuration"
+msgstr "Website-Konfiguration"
+
+#: modules/notices/templates/management-actions.php:7
+#: modules/updraftvault/templates/management-actions.php:5
+#: modules/wpo/templates/management-actions.php:5
+#: modules/eum/templates/management-actions.php:5
+#: modules/updraftplus/templates/management-actions.php:5
+#: modules/advancedtools/templates/management-actions.php:5
+msgid "Go back to sites management"
+msgstr "Gehe zurück zur Websites-Verwaltung"
+
+#: templates/dashboard/not-logged-in.php:7
+msgid "You need to be logged in to see this page."
+msgstr "Du musst angemeldet sein, um diese Seite zu sehen."
+
+#: modules/updraftplus/loader.php:50
+#: modules/updraftplus/templates/site-row-buttons.php:12
+msgid "Existing backups"
+msgstr "Bestehende Backups"
+
+#: templates/sites/none-set-up.php:3
+msgid "No sites have yet been set up."
+msgstr "Bisher wurden keine Websites eingerichtet."
+
+#: templates/sites/none-set-up.php:3
+msgid "Go here to learn how to add your first site."
+msgstr "Gehe hierher, um zu lernen, wie du deine erste Website hinzufügst."
+
+#: templates/dashboard/not-logged-in.php:26
+msgid "Go here to log in."
+msgstr "Gehe hierher, um dich anzumelden."
+
+#: templates/dashboard/not-authorised.php:26
+msgid "Go here to log out and log in again."
+msgstr "Gehe hierher, um dich abzumelden und erneut anzumelden."
+
+#: templates/dashboard/not-authorised.php:7
+msgid "You are logged in, but your user account is not authorised to see this page."
+msgstr "Du bist angemeldet, aber dein Benutzerkonto ist nicht berechtigt, diese Seite zu sehen."
+
+#: templates/dashboard/navigation.php:20
+msgid "Follow the link to purchase more licences."
+msgstr "Folge diesem Link, um mehr Lizenzen zu kaufen."
+
+#: templates/dashboard/navigation.php:30
+msgid "Help"
+msgstr "Hilfe"
+
+#: templates/dashboard/navigation.php:31
+msgid "Full screen"
+msgstr "Vollbild"
+
+#: site-management.php:1264
+msgid "UpdraftCentral website"
+msgstr "UpdraftCentral-Website"
+
+#: site-management.php:1310
+msgid "template not found"
+msgstr "Vorlage nicht gefunden"
+
+#: site-management.php:660
+msgid "This action (%s) could not be handled"
+msgstr "Diese Aktion (%s) konnte nicht ausgeführt werden"
+
+#: site-management.php:642
+msgid "you are not authorized to access this site"
+msgstr "Du bist nicht berechtigt, auf diese Website zuzugreifen"
+
+#: site-management.php:634
+msgid "failed to initialise"
+msgstr "Initialisierung fehlgeschlagen"
+
+#: site-management.php:503
+msgid "Higher WordPress version required"
+msgstr "Höhere WordPress-Version erforderlich"
+
+#: site-management.php:493 site-management.php:503 site-management.php:689
+#: site-management.php:693
+msgid "The %s plugin requires %s version %s or higher - your current version is only %s."
+msgstr "Das %s-Plugin erfordert %s-Version %s oder höher - deine momentane Version ist nur %s."
+
+#: site-management.php:493
+msgid "Higher PHP version required"
+msgstr "Höhere PHP-Version erforderlich"
+
+#: site-management.php:537
+msgid "Home"
+msgstr "Startseite"
+
+#: pages/dashboard.php:56
+msgid "Sites"
+msgstr "Websites"
+
+#: modules/updraftplus/translations-dashboard.php:92
+msgid "Do remember to save your settings."
+msgstr "Denke daran, deine Einstellungen zu speichern."
+
+#: modules/updraftplus/translations-dashboard.php:92
+msgid "You are now using a IAM user account to access your bucket."
+msgstr "Du benutzt nun ein IAM-Benutzerkonto, um auf deinen bucket zuzugreifen."
+
+#: modules/updraftplus/translations-dashboard.php:91
+msgid "Trying..."
+msgstr "Versuche …"
+
+#: modules/updraftplus/translations-dashboard.php:93
+msgid "Settings saved"
+msgstr "Die Einstellungen wurden gespeichert"
+
+#: modules/updraftplus/translations-dashboard.php:88
+msgid "Disconnect"
+msgstr "Trennen"
+
+#: modules/updraftplus/translations-dashboard.php:20
+#: modules/updraftplus/translations-dashboard.php:90
+msgid "Create"
+msgstr "Erstellen"
+
+#: modules/updraftplus/translations-dashboard.php:89
+msgid "Create new IAM user and S3 bucket"
+msgstr "Neuen IAM-Benutzer und S3 Bucket erstellen"
+
+#: modules/updraftplus/translations-dashboard.php:87
+msgid "Connecting..."
+msgstr "Verbinde …"
+
+#: modules/updraftplus/translations-dashboard.php:84
+msgid "Update quota count"
+msgstr "Aktualisiere Kontingentgröße"
+
+#: modules/updraftplus/translations-dashboard.php:86
+msgid "Connect"
+msgstr "Verbinden"
+
+#: modules/updraftplus/translations-dashboard.php:80
+msgid "Test %s Settings"
+msgstr "Teste %s-Einstellungen"
+
+#: modules/updraftplus/translations-dashboard.php:82
+msgid "%s settings test result:"
+msgstr "%s-Einstellungen-Testergebnis:"
+
+#: modules/updraftplus/translations-dashboard.php:75
+msgid "Table prefix"
+msgstr "Tabellenpräfix"
+
+#: modules/updraftplus/translations-dashboard.php:78
+msgid "Backup external database"
+msgstr "Backup der externen Datenbank"
+
+#: modules/updraftplus/translations-dashboard.php:76
+msgid "If you enter a table prefix, then only tables that begin with this prefix will be backed up."
+msgstr "Falls du einen Tabellenpräfix eingibst, werden nur Tabellen, die mit diesem Präfix beginnen, gesichert."
+
+#: modules/updraftplus/translations-dashboard.php:77
+msgid "Test connection..."
+msgstr "Teste Verbindung …"
+
+#: modules/updraftplus/translations-dashboard.php:81
+msgid "Testing %s Settings..."
+msgstr "Teste %s-Einstellungen …"
+
+#: modules/updraftplus/translations-dashboard.php:83
+msgid "Counting..."
+msgstr "Zähle …"
+
+#: modules/updraftplus/translations-dashboard.php:85
+msgid "Disconnecting..."
+msgstr "Trenne …"
+
+#: modules/updraftplus/translations-dashboard.php:74
+msgid "Database"
+msgstr "Datenbank"
+
+#: modules/updraftplus/translations-dashboard.php:73
+msgid "Password"
+msgstr "Passwort"
+
+#: modules/updraftplus/translations-dashboard.php:71
+msgid "Host"
+msgstr "Host"
+
+#: modules/updraftplus/translations-dashboard.php:72
+msgid "Username"
+msgstr "Benutzername"
+
+#: modules/updraftplus/translations-dashboard.php:68
+msgid "When the Email storage method is enabled, also send the entire backup"
+msgstr "Wenn die E-Mail-Speichermethode aktiviert ist, sende auch das vollständige Backup"
+
+#: modules/updraftplus/translations-dashboard.php:67
+msgid "Send a report only when there are warnings/errors"
+msgstr "Sende einen Bericht nur bei Warnungen/Fehlern"
+
+#: modules/updraftplus/translations-dashboard.php:69
+msgid "Be aware that mail servers tend to have size limits; typically around %s Mb; backups larger than any limits will likely not arrive."
+msgstr "Bedenke, dass Mail-Server oft Größenbeschränkungen haben, typischerweise um %s Mb. Größere Backups werden vermutlich nicht ankommen."
+
+#: modules/updraftplus/translations-dashboard.php:61
+msgid "day(s)"
+msgstr "Tag(e)"
+
+#: modules/updraftplus/translations-dashboard.php:62
+msgid "hour(s)"
+msgstr "Stunde(n)"
+
+#: modules/updraftplus/translations-dashboard.php:63
+msgid "week(s)"
+msgstr "Woche(n)"
+
+#: modules/updraftplus/translations-dashboard.php:65
+msgid "Enter the directory:"
+msgstr "Gib das Verzeichnis ein"
+
+#: modules/updraftplus/translations-dashboard.php:60
+msgid "in the month"
+msgstr "im Monat"
+
+#: modules/updates/translations-dashboard.php:97
+#: modules/updraftplus/translations-dashboard.php:66
+msgid "Remove"
+msgstr "Entfernen"
+
+#: modules/updraftplus/translations-dashboard.php:64
+msgid "For backups older than"
+msgstr "Für Backups älter als"
+
+#: modules/updraftplus/translations-dashboard.php:59
+msgid "day"
+msgstr "Tag"
+
+#: modules/updraftplus/translations-dashboard.php:55
+msgid "Restore backup"
+msgstr "Backup wiederherstellen"
+
+#: modules/updraftplus/translations-dashboard.php:54
+msgid "The download request did not succeed."
+msgstr "Die Download-Anfrage war nicht erfolgreich."
+
+#: modules/updraftplus/translations-dashboard.php:56
+msgid "You will now be taken to the site's dashboard, to allow you to choose restoration options. Note that depending upon what you restore, and the state of the site when the backup was taken, restoring may cause your UpdraftCentral connection to be broken. In that case, you will need to re-create it after restoring."
+msgstr "Du wirst jetzt zum Dashboard der Website geführt, was dir erlaubt, Wiederherstellungsoptionen zu wählen. Bedenke, dass, je nachdem wohin du wiederherstellst, und dem Status der Website, als das Backup angefertigt wurde, das Wiederherstellen eine Unterbrechung deiner Verbindung mit UpdraftCentral verursachen kann. In diesem Fall wirst du sie nach der Wiederherstellung neu herstellen müssen."
+
+#: modules/updraftplus/translations-dashboard.php:52
+msgid "Download to your computer"
+msgstr "Auf deinen Computer herunterladen"
+
+#: modules/updraftplus/translations-dashboard.php:51
+msgid "Delete from your web server"
+msgstr "Von deinem Webserver löschen"
+
+#: modules/updraftplus/translations-dashboard.php:53
+msgid "and then, if you wish,"
+msgstr "und dann, falls du möchtest,"
+
+#: modules/updraftplus/translations-dashboard.php:49
+msgid "File ready."
+msgstr "Datei bereit."
+
+#: modules/updraftplus/translations-dashboard.php:50
+msgid "You should:"
+msgstr "Du solltest:"
+
+#: modules/updraftplus/translations-dashboard.php:48
+msgid "The download failed to start"
+msgstr "Das Herunterladen konnte nicht starten"
+
+#: modules/updraftplus/translations-dashboard.php:41
+msgid "Raw backup history"
+msgstr "RAW Sicherungs-Historie"
+
+#: modules/updraftplus/translations-dashboard.php:46
+msgctxt "(verb)"
+msgid "Download"
+msgstr "Herunterladen"
+
+#: modules/updraftplus/translations-dashboard.php:43
+msgid "these backup sets"
+msgstr "diese Backup-Sätze"
+
+#: modules/updraftplus/translations-dashboard.php:42
+msgid "this backup set"
+msgstr "dieser Backup-Satz"
+
+#: modules/updraftplus/translations-dashboard.php:40
+msgid "Rescanning remote and local storage for backup sets..."
+msgstr "Erneute Suche auf externem und lokalem Speicher nach Backup-Sätzen ..."
+
+#: modules/updraftplus/translations-dashboard.php:38
+msgid "Existing Backups"
+msgstr "Bestehende Backups"
+
+#: modules/updraftplus/translations-dashboard.php:39
+msgid "Rescanning (looking for backups that you have uploaded manually into the internal backup store)..."
+msgstr "Erneute Suche (suche nach Backups, die du manuell in den internen Backup-Speicher hochgeladen hast) ..."
+
+#: modules/updraftplus/translations-dashboard.php:44
+msgid "Also delete from remote storage"
+msgstr "Auch vom externen Speicher löschen"
+
+#: modules/updraftplus/translations-dashboard.php:42
+#: modules/updraftplus/translations-dashboard.php:43
+msgid "Are you sure that you wish to remove %s from UpdraftPlus?"
+msgstr "Bist du sicher, dass du %s von UpdraftPlus entfernen möchtest?"
+
+#: modules/updraftplus/translations-dashboard.php:45
+msgid "Deleting... please allow time for any communications with the remote storage to complete."
+msgstr "Löschen ... bitte habe etwas Geduld während der Kommunikation mit dem externen Speicher, bis es abgeschlossen ist."
+
+#: modules/updraftplus/translations-dashboard.php:37
+msgid "Job deleted"
+msgstr "Auftrag gelöscht"
+
+#: modules/updraftplus/translations-dashboard.php:47
+msgid "Begun looking for this entity"
+msgstr "Suche nach dieser Instanz begonnen"
+
+#: modules/updraftplus/translations-dashboard.php:33
+msgid "This item has been deleted."
+msgstr "Dieses Element wurde gelöscht."
+
+#: modules/updraftplus/translations-dashboard.php:35
+msgid "Delete backup set"
+msgstr "Backup-Satz löschen"
+
+#: modules/updraftplus/translations-dashboard.php:34
+msgid "This item needs downloading from the remote storage (which will be attempted)."
+msgstr "Dieses Element muss von dem externen Speicher heruntergeladen werden (wird versucht werden)."
+
+#: modules/updraftplus/translations-dashboard.php:36
+msgid "Could not find that job - perhaps it has already finished?"
+msgstr "Konnte diesen Auftrag nicht finden, vielleicht wurde er bereits beendet?"
+
+#: modules/updraftplus/translations-dashboard.php:32
+msgid "Deleted"
+msgstr "Gelöscht"
+
+#: modules/updraftplus/translations-dashboard.php:31
+msgid "none"
+msgstr "keine"
+
+#: modules/updraftplus/translations-dashboard.php:25
+msgid "The backup has begun"
+msgstr "Das Backup hat begonnen"
+
+#: modules/updraftplus/translations-dashboard.php:24
+msgid "You may find more information in your web browser's JavaScript console."
+msgstr "Du findest vermutlich weitere Informationen in der JavaScript-Konsole deines Browsers."
+
+#: modules/updraftplus/translations-dashboard.php:27
+msgid "Backup now"
+msgstr "Backup jetzt"
+
+#: modules/updraftplus/translations-dashboard.php:24
+msgid "The backup appears not to have started."
+msgstr "Das Backup hat scheinbar nicht begonnen."
+
+#: modules/updraftplus/translations-dashboard.php:29
+msgid "Download log"
+msgstr "Protokoll herunterladen"
+
+#: modules/updraftplus/translations-dashboard.php:28
+msgid "Log file"
+msgstr "Protokolldatei"
+
+#: modules/updraftplus/translations-dashboard.php:26
+msgid "Last log message"
+msgstr "Letzte Protokollnachricht"
+
+#: modules/updraftvault/translations-dashboard.php:15
+#: modules/updraftplus/translations-dashboard.php:30
+msgid "Delete"
+msgstr "Löschen"
+
+#: modules/updraftplus/loader.php:106
+msgid "Backups"
+msgstr "Backups"
+
+#: dashboard-translations.php:117
+msgid "Your web browser lacks capabilities that UpdraftCentral requires, and thus is not supported. Please update your browser to the latest version."
+msgstr "Deinem Webbrowser fehlen Fähigkeiten, die UpdraftCentral erfordert, und wird deshalb nicht unterstützt. Bitte aktualisiere deinen Browser auf die neueste Version."
+
+#: modules/updraftplus/translations-dashboard.php:21
+msgid "You have chosen to backup files, but no file entities have been selected"
+msgstr "Du hast ein Dateibackup gewählt, aber keine Dateien ausgewählt"
+
+#: modules/updraftplus/translations-dashboard.php:23
+msgid "If you exclude both the database and the files, then you have excluded everything!"
+msgstr "Falls du sowohl die Datenbank als auch die Dateien ausgeschlossen hast, dann hast du alles ausgeschlossen!"
+
+#: dashboard-translations.php:114
+msgid "Possibly you need to update the remote site to a more recent %s version."
+msgstr "Möglicherweise musst du die externe Website auf eine aktuellere %s-Version aktualisieren."
+
+#: dashboard-translations.php:114
+msgid "The remote site did not recognise the command."
+msgstr "Die externe Website hat diesen Befehl nicht erkannt."
+
+#: dashboard-translations.php:113
+msgid "The site could not return the requested information - perhaps you need to update it to a more recent UpdraftPlus version?"
+msgstr "Die Website konnte die angefragten Informationen nicht liefern - vielleicht sollest du auf eine neuere Version von UpdraftPlus aktualisieren?"
+
+#: dashboard-translations.php:103 templates/wp-admin/dashboard-page.php:6
+msgid "Support forum"
+msgstr "Support-Forum "
+
+#: dashboard-translations.php:100
+msgid "Frequently asked questions"
+msgstr "Häufig gestellte Fragen"
+
+#: dashboard-translations.php:99
+msgid "How to add a site to UpdraftCentral"
+msgstr "So fügst du eine Website zu UpdraftCentral hinzu"
+
+#: dashboard-translations.php:101
+msgid "Make a suggestion / feature request"
+msgstr "Mache einen Vorschlag / Feature-Anfrage"
+
+#: dashboard-translations.php:102
+msgid "Paid support requests"
+msgstr "Anfragen für bezahlten Support"
+
+#: dashboard-translations.php:96
+msgid "UpdraftCentral Help"
+msgstr "UpdraftCentral-Hilfe"
+
+#: dashboard-translations.php:98
+msgid "How to install UpdraftCentral"
+msgstr "So installierst du UpdraftCentral"
+
+#: dashboard-translations.php:92
+msgid "Debugging level"
+msgstr "Debugging-Grad"
+
+#: dashboard-translations.php:97
+msgid "Follow one of these links to get help with UpdraftCentral"
+msgstr "Folge einem dieser Links, um Hilfe für UpdraftCentral zu erhalten"
+
+#: dashboard-translations.php:91 modules/wpo/translations-dashboard.php:11
+#: modules/eum/translations-dashboard.php:11
+msgid "Save settings"
+msgstr "Einstellungen speichern"
+
+#: dashboard-translations.php:90 templates/dashboard/navigation.php:29
+#: modules/updraftplus/templates/management-actions-oldcopy-keep.php:16
+#: site-management.php:1261
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: dashboard-translations.php:88
+msgid "This is the current method."
+msgstr "Dies ist die momentane Methode."
+
+#: dashboard-translations.php:87
+msgid "You are recommended to use it."
+msgstr "Dir wird empfohlen, sie zu benutzen."
+
+#: dashboard-translations.php:89
+msgid "Switch to using this method"
+msgstr "Wechseln zu dieser Methode"
+
+#: dashboard-translations.php:85
+msgid "This is the best connection method."
+msgstr "Dies ist die beste Verbindungsmethode."
+
+#: dashboard-translations.php:86
+msgid "You are recommended to continue using it."
+msgstr "Dir wird empfohlen, sie weiterhin zu benutzen."
+
+#: dashboard-translations.php:72
+msgid "Direct"
+msgstr "Direkt"
+
+#: dashboard-translations.php:83
+msgid "Result"
+msgstr "Ergebnis"
+
+#: dashboard-translations.php:84
+msgid "Not possible (due to browser security restrictions on non-https sites)"
+msgstr "Nicht möglich (aufgrund von Browser-Sicherheitsrestriktionen auf Nicht-HTTPS-Websites)"
+
+#: dashboard-translations.php:82
+msgid "Method (in recommended order)"
+msgstr "Methode (in empfohlener Reihenfolge)"
+
+#: dashboard-translations.php:67
+msgid "Connection method"
+msgstr "Verbindungsmethode"
+
+#: dashboard-translations.php:71
+msgid "web browser security restrictions"
+msgstr "Webbrowser-Sicherheitsrestriktionen"
+
+#: dashboard-translations.php:69
+msgid "Run a connection method test by following this link"
+msgstr "Führe einen Verbindungstest durch, indem du diesem Link folgst"
+
+#: dashboard-translations.php:76
+msgid "Not yet begun"
+msgstr "Noch nicht begonnen"
+
+#: dashboard-translations.php:73
+msgid "Direct when possible (authentication method chosen automatically)"
+msgstr "Direkt, wenn möglich (Authentifizierungsmethode wird automatisch gewählt)"
+
+#: dashboard-translations.php:74
+msgid "Direct when possible (authentication via jQuery)"
+msgstr "Direkt, wenn möglich (Authentifizierung via jQuery)"
+
+#: dashboard-translations.php:70
+msgid "Get help on complicated setups and connection methods at this link."
+msgstr "Erhalte Hilfe bei komplizierten Einrichtungen und Verbindungsmethoden bei diesem Link."
+
+#: dashboard-translations.php:75
+msgid "Direct when possible (manually constructed authentication)"
+msgstr "Direkt, wenn möglich (manuell ausgeführte Authentifizierung)"
+
+#: dashboard-translations.php:66
+msgid "The remote site is protected by HTTP digest authentication, which UpdraftCentral does not support in this connection mode (via mothership)."
+msgstr "Die externe Website ist durch HTTP Digest Authentication gesichert, welches UpdraftCentral in diesem Verbindungsmodus (via Dashboard-Server) nicht unterstützt."
+
+#: dashboard-translations.php:80
+msgid "Via mothership, encryption performed at the mothership (useful for slow browsers, but less secure)"
+msgstr "Via Dashboard-Server, Verschlüsselung wird auf dem Dashboard-Server ausgeführt (nützlich für langsame Browser, aber weniger sicher)"
+
+#: dashboard-translations.php:79
+msgid "Via mothership (slower, but better compatibility with some awkward setups)"
+msgstr "Via Dashboard-Server (langsamer, aber bessere Kompatibilität mit einigen schwierigen Einrichtungen)"
+
+#: dashboard-translations.php:78
+msgid "Via mothership (encrypted at the mothership)"
+msgstr "Via Dashboard-Server (Verschlüsselung auf dem Dashboard-Server)"
+
+#: dashboard-translations.php:77
+msgid "Via mothership (encrypted from the browser)"
+msgstr "Via Dashboard-Server (Verschlüsselung vom Browser)"
+
+#: dashboard-translations.php:71
+msgid "Because of %s, any connections to http sites must go via the mothership (dashboard webserver) - and the option chosen here will make no difference"
+msgstr "Aufgrund von %s müssen alle Verbindungen zu HTTP-Websites über den Dashboard-Server laufen - und die Option, die du hier wählst, wird keinen Unterschied machen"
+
+#: dashboard-translations.php:68
+msgid "These tests cannot currently be run. You must first change and save the site configuration to take it out of the \"Via mothership (dashboard webserver), encryption performed at the mothership\" mode, in order to be able to perform the connection tests. This is because in the current mode, some of the information for testing direct connections has not been shared with the browser, to enhance security."
+msgstr "Diese Teste können aktuell nicht durchgeführt werden. Du musst zuerst die Konfiguration der Website ändern und speichern, um sie aus dem Modus \"Via Dashboard-Server (Verschlüsselung auf dem Dashboard-Server)\" herauszunehmen, um die Verbindungstests durchführen zu können. Dies liegt daran, dass im aktuellen Modus manche Informationen zum Testen direkter Verbindungen nicht mit dem Browser geteilt werden, um die Sicherheit zu erhöhen."
+
+#: dashboard-translations.php:65
+msgid "CORS headers should normally be turned on, so that UpdraftCentral on the remote site sends these necessary headers. You would only turn it off if you have set something else up to manually add them (which may be necessary for you to do if you are using HTTP authentication)."
+msgstr "CORS-Header sollten normalerweise eingeschaltet sein, so dass UpdraftCentral auf der externen Website diese notwendigen Header sendet. Du würdest es nur ausschalten, falls du andere manuelle Einstellungen gemacht hast, um diese manuell hinzuzufügen (was für dich notwendig sein könnte, falls du HTTP-Authentifizierung benutzt)"
+
+#: dashboard-translations.php:81
+msgid "Browser security restrictions preventing https dashboards contacting non-https sites may be involved here. You could try setting up https (i.e. SSL) for your site-local website, visiting its dashboard over https, and getting a new key for it."
+msgstr "Browser-Sicherheitsbeschränkungen, die das Verbinden von HTTPS-Dashboards mit Nicht-HTTPS-Websites verhindern, sind hier möglicherweise beteiligt. Du könntest versuchen, für deine lokale Website HTTPS aufzusetzen (z.B. SSL), indem du ihr Dashboard über HTTPS aufrufst, und einen neuen Schlüssel für sie erhältst."
+
+#: dashboard-translations.php:64
+msgid "Send CORS headers"
+msgstr "Sende CORS-Header"
+
+#: dashboard-translations.php:63
+msgid "Digest"
+msgstr "Zusammenfassung"
+
+#: dashboard-translations.php:62
+msgid "Basic"
+msgstr "Einfach"
+
+#: dashboard-translations.php:51
+msgid "PHP installation information"
+msgstr "PHP-Installation-Information"
+
+#: dashboard-translations.php:50
+msgid "Edit site configuration"
+msgstr "Bearbeite Website-Konfiguration"
+
+#: dashboard-translations.php:59
+msgid "Authentication Method"
+msgstr "Authentifizierungsmethode"
+
+#: dashboard-translations.php:52
+msgid "To connect to a remote site, paste its key here:"
+msgstr "Um eine Verbindung zu einer externen Website herzsutellen, kopiere ihren Schlüssel hierher:"
+
+#: dashboard-translations.php:54
+msgid "The remote site has already received the communications key"
+msgstr "Die externe Website hat bereits den Kommunikationsschlüssel erhalten"
+
+#: dashboard-translations.php:53
+msgid "The remote site did not recognise the communications key - you are recommended to delete and re-create it."
+msgstr "Die externe Website hat den Kommunikationsschlüssel nicht erkannt - es wird empfohlen, ihn zu löschen und neu zu erstellen."
+
+#: dashboard-translations.php:56
+msgid "Go here for help in trouble-shooting connection issues"
+msgstr "Gehe hierher für Hilfe bei der Lösung von Verbindungsproblemen"
+
+#: dashboard-translations.php:49
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: dashboard-translations.php:48 templates/dashboard/modal.php:18
+msgid "Close"
+msgstr "Schließen"
+
+#: dashboard-translations.php:47
+msgid "Go"
+msgstr "Anzeigen"
+
+#: dashboard-translations.php:46 modules/updates/translations-dashboard.php:26
+#: site-management.php:1540
+msgid "Description"
+msgstr "Beschreibung"
+
+#: dashboard-translations.php:45
+msgid "Open site configuration"
+msgstr "Öffne Website-Konfiguration"
+
+#: dashboard-translations.php:44
+msgid "Site"
+msgstr "Website"
+
+#: dashboard-translations.php:43
+msgid "Error code"
+msgstr "Fehlercode"
+
+#: dashboard-translations.php:42
+msgid "HTTP response status code"
+msgstr "HTTP-Antwort-Statuscode"
+
+#: dashboard-translations.php:41
+msgid "The request to the remote site was blocked by your web browser as unauthorized."
+msgstr "Die Anfrage zu der externen Website wurde von deinem Browser als unautorisiert zurückgewiesen."
+
+#: dashboard-translations.php:38
+msgid "The request did not complete in a reasonable amount of time."
+msgstr "Die Anfrage wurde nicht in angemessener Zeit beantwortet."
+
+#: dashboard-translations.php:40
+msgid "The request to the remote site was blocked by the site's webserver as unauthorized."
+msgstr "Die Anfrage zu der externen Website wurde von dem Webserver der Website als unautorisiert zurückgewiesen."
+
+#: dashboard-translations.php:38
+msgid "You should check that the remote site is online, is not firewalled, has remote control enabled, and that no security module is blocking the access. Then, check the logs on the remote site."
+msgstr "Du solltest prüfen, ob die externe Website online ist, nicht hinter einer Firewall, die Fernsteuerung aktiviert hat, und keine Sicherheitsmodule den Zugang sperren. Dann prüfe die Protokolle der externen Website."
+
+#: dashboard-translations.php:35
+msgid "Succeeded."
+msgstr "Erfolgreich."
+
+#: dashboard-translations.php:37
+msgid "There was an error in contacting either the dashboard server or the remote site."
+msgstr "Ein Fehler ist aufgetreten, entweder beim Kontakt zu dem Dashboard-Server oder zu der externen Website."
+
+#: dashboard-translations.php:37
+msgid "You should check that the dashboard website is online, and that the remote site is online, is not firewalled, has remote control enabled, and that no security module is blocking the access. Then, check the logs on the remote site and your browser's JavaScript console."
+msgstr "Du solltest prüfen, ob die Dashboard-Website online ist, die externe Website online ist, nicht hinter einer Firewall, die Fernsteuerung aktiviert hat, und keine Sicherheitsmodule den Zugang sperren. Dann prüfe die Protokolle der externen Website und die JavaScript-Konsole deines Browsers."
+
+#: dashboard-translations.php:34
+msgid "Failed"
+msgstr "Gescheitert"
+
+#: dashboard-translations.php:32
+msgid "Test connection methods"
+msgstr "Teste Verbindungsmethoden"
+
+#: dashboard-translations.php:26 templates/sites/site-menu.php:31
+msgid "Remove site"
+msgstr "Entferne Website"
+
+#: dashboard-translations.php:23
+msgid "Advanced options"
+msgstr "Erweiterte Optionen"
+
+#: dashboard-translations.php:24
+msgid "The response was not understood."
+msgstr "Die Antwort wurde nicht verstanden."
+
+#: dashboard-translations.php:29
+msgid "UpdraftCentral version"
+msgstr "UpdraftCentral Version"
+
+#: dashboard-translations.php:28
+msgid "This site is running WordPress version %s (PHP %s, MySQL %s) and UpdraftPlus version %s (UDRPC version %s)"
+msgstr "Diese Website läuft mit WordPress Version %s (PHP %s, MySQL %s) und UpdraftPlus Version %s (UDRPC Version %s)"
+
+#: dashboard-translations.php:27
+msgid "Do you really wish to delete this site from your dashboard?"
+msgstr "Bist du sicher, dass du diese Website von deinem Dashboard löschen willst?"
+
+#: dashboard-translations.php:25
+msgid "The response was not understood (no message included)."
+msgstr "Die Antwort wurde nicht verstanden (keine Meldung enthalten)."
+
+#: dashboard-translations.php:30
+msgid "An error occurred - you may find more information in your web browser's JavaScript console."
+msgstr "Ein Fehler ist aufgetreten. Du findest vermutlich weitere Informationen in der JavaScript-Konsole deines Browsers."
+
+#: dashboard-translations.php:24 dashboard-translations.php:25
+msgid "You can check the browser JavaScript console for more information."
+msgstr "Du kannst die JavaScript-Konsole deines Browsers für weitere Information prüfen."
+
+#: dashboard-translations.php:31
+msgid "Follow this link to test alternative connection methods"
+msgstr "Folge diesem Link, um alternative Verbindungsmethoden zu testen"
+
+#: dashboard-translations.php:33
+#: modules/updraftplus/translations-dashboard.php:79
+msgid "Testing..."
+msgstr "Teste …"
+
+#: templates/sites/management-actions.php:5
+msgid "Add Site"
+msgstr "Website hinzufügen"
+
+#: dashboard-translations.php:21
+msgid "Communications error"
+msgstr "Kommunikationsfehler"
+
+#: classes/user.php:1176 classes/user.php:1187 classes/user.php:1195
+#: classes/user.php:1200 classes/user.php:1220 classes/user.php:1227
+#: classes/user.php:1320 site-management.php:634 site-management.php:642
+#: site-management.php:660 site-management.php:665 site-management.php:1310
+msgid "Error:"
+msgstr "Fehler:"
+
+#: dashboard-translations.php:20
+msgid "Error"
+msgstr "Fehler"
+
+#: classes/user.php:1543
+msgid "You do not have the permission to do this."
+msgstr "Du hast keine Berechtigung, dies zu tun."
+
+#: classes/user.php:1306
+msgid "The key was successfully added."
+msgstr "Der Schlüssel wurde erfolgreich hinzugefügt."
+
+#: classes/user.php:1227
+msgid "This key could not be added - it may be too long since you generated it; please try again."
+msgstr "Dieser Schlüssel konnte nicht hinzugefügt werden - es könnte zu lange her sein, seit du ihn erzeugt hast; bitte versuche es erneut."
+
+#: classes/user.php:1220
+msgid "This key could not be added, as it appears to be corrupt - please try again."
+msgstr "Dieser Schlüssel konnte nicht hinzugefügt werden, denn er scheint beschädigt zu sein - bitte versuche es erneut."
+
+#: classes/user.php:1181 classes/user.php:1183 classes/user.php:1187
+msgid "The entered key was corrupt - please try again."
+msgstr "Der eingegebene Schlüssel war beschädigt - bitte versuche es erneut."
+
+#: classes/user.php:588 classes/user.php:637 classes/user.php:706
+#: classes/class-siterpc.php:107
+msgid "Missing information"
+msgstr "Fehlende Information"
+
+#: classes/user.php:1157
+msgid "Please enter the site key."
+msgstr "Bitte gib den Websiteschlüssel ein."
+
+#: classes/user.php:629 classes/user.php:697
+msgid "The site configuration was successfully edited."
+msgstr "Die Konfiguration der Website wurde erfolgreich bearbeitet."
+
+#: classes/user.php:582
+msgid "The site was successfully deleted from your dashboard."
+msgstr "Die Website wurde erfolgreich von deinem Dashboard gelöscht."
+
+#: classes/class-siterpc.php:108
+msgid "This site (%d / %d) was not found"
+msgstr "Diese Website (%d / %d) wurde nicht gefunden"
+
+#: classes/class-siterpc.php:109
+msgid "The key for this site (%d / %d) was not found"
+msgstr "Der Schlüssel für diese Website (%d / %d) wurde nicht gefunden"
+
+#: classes/class-siterpc.php:110 dashboard-translations.php:104
+msgid "You will need to obtain more licences, or remove some sites."
+msgstr "Du wirst mehr Lizenzen erwerben, oder einige Websites entfernen müssen."
+
+#: classes/class-siterpc.php:276 dashboard-translations.php:36
+#: dashboard-translations.php:38 dashboard-translations.php:40
+#: dashboard-translations.php:41
+msgid "There was an error in contacting the remote site."
+msgstr "Ein Fehler ist aufgetreten bei dem Versuch, die externe Website zu kontaktieren."
+
+#: classes/class-siterpc.php:271
+msgid "The connection to the remote site returned an error"
+msgstr "Die Verbindung zu der externen Website hat einen Fehler zurückgegeben"
+
+#: classes/user.php:563
+msgid "The site list has been refreshed."
+msgstr "Die Liste der Websites wurde aktualisiert."
+
+#: classes/class-siterpc.php:281
+msgid "The site was connected to, and returned a response"
+msgstr "Die Verbindung zu der Website wurde hergestellt, und eine Antwort zurückgegeben"
+
+#: classes/class-siterpc.php:276 dashboard-translations.php:36
+#: dashboard-translations.php:37
+msgid "If none of that helps, then you should try re-adding the site with a fresh key."
+msgstr "Falls nichts davon hilft, solltest du versuchen, die Website mit einem neuen Schlüssel erneut hinzuzufügen."
+
+#: classes/user.php:1179
+msgid "The entered key was the wrong length - please try again."
+msgstr "Der eingegebene Schlüssel hat eine falsche Länge - bitte versuche es erneut."
+
+#: classes/user.php:1195
+msgid "The entered key does not belong to a remote site (it belongs to this one)."
+msgstr "Der eingegebene Schlüssel gehört nicht zu einer externen Website (er gehört zu dieser)."
+
+#: classes/user.php:1200
+msgid "The entered key belongs to a local development website - these cannot be controlled from this dashboard because it is not reachable from an external network."
+msgstr "Der eingegebene Schlüssel gehört zu einer lokalen Entwicklungs-Website - diese können nicht von diesem Dashboard aus gesteuert werden, weil sie nicht von einem externen Netzwerk aus erreichbar sind."
+
+#: classes/user.php:1306
+msgid "It is for interacting with the following site: "
+msgstr "Er dient der Interaktion mit der folgenden Website:"
+
+#: classes/class-siterpc.php:110 dashboard-translations.php:104
+msgid "You have more sites in your dashboard than licences. As a result, you cannot perform actions on this site."
+msgstr "Du hast mehr Websites in deinem Dashboard als Lizenzen. Als Ergebnis kannst du keine Aktionen auf dieser Website ausführen."
+
+#: classes/user.php:1336
+msgid "You have more sites being managed (%d) than active licences (%d) - you will need to obtain more licences in order to manage all of your managed sites."
+msgstr "Du hast mehr Websites zu verwalten (%d) als aktive Lizenzen (%d) - du wirst mehr Lizenzen erwerben müssen, um alle deine zu verwaltenden Websites zu verwalten."
+
+#: classes/user.php:1546
+msgid "You have no licences available - to add a site, you will need to obtain some more."
+msgstr "Du hast keine verfügbaren Lizenzen - um eine Website hinzuzufügen, wirst du einige mehr erwerben müssen."
+
+#: classes/class-siterpc.php:276 dashboard-translations.php:36
+msgid "You should check that the remote site is online, is not firewalled, has remote control enabled, and that no security module is blocking the access. Then, check the logs on the remote site and your browser's JavaScript console."
+msgstr "Du solltest prüfen, ob die externe Website online ist, nicht hinter einer Firewall, die Fernsteuerung aktiviert hat, und keine Sicherheitsmodule den Zugang sperren. Dann prüfe die Protokolle der externen Website und die JavaScript-Konsole deines Browsers."
+
+#: classes/class-siterpc.php:113
+msgid "The loaded UDRPC library (%s) is too old - you probably need to update your installed UpdraftPlus on the server"
+msgstr "Die geladene UDRPC-Bibliothek (%s) ist zu alt - du musst vermutlich deine UpdraftPlus-Installation auf dem Server aktualisieren"
+
+#: classes/class-siterpc.php:111
+msgid "You cannot contact a website hosted on a site-local network (e.g. localhost) from this dashboard - it cannot be reached."
+msgstr "Du kannst keine Website, die auf einem lokalen Netzwerk gehostet ist (z.B. localhost), von diesem Dashboard aus kontaktieren - sie kann nicht erreicht werden."
+
+#: classes/class-siterpc.php:112
+msgid "To use HTTP digest authentication, your server running the UpdraftCentral dashboard needs at least PHP %s (your version is %s)"
+msgstr "Um die HTTP Digest Authentication zu benutzen, benötigt dein Server, auf dem das UpdraftCentral-Dashboard läuft, mindestens PHP %s (deine Version ist %s)"
+
+#: actions/showmain.php:20
+msgid "UpdraftCentral is a JavaScript application. You will need to have JavaScript enabled in order to use it."
+msgstr "UpdraftCentral ist eine JavaScript-Anwendung. Du musst JavaScript aktivieren, um es benutzen zu können."
+
+#: actions/showmain.php:28
+msgid "Loading..."
+msgstr "Wird geladen..."

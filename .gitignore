@@ -1,0 +1,58 @@
+# WordPress Core Files
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/xmlrpc.php
+/readme.html
+/license.txt
+
+# Configuration Files (Keep local only)
+wp-config.php
+.env
+
+# IDE and Editor Files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+error_log
+debug.log
+
+# Backup Files
+*.sql
+*.sql.gz
+*.zip
+*.tar.gz
+wp-content/ai1wm-backups/
+wp-content/updraft/
+wp-content/upgrade/
+wp-content/backups/
+
+# Uploads (Consider keeping uploads in git or not based on your needs)
+# Uncomment the line below if you want to exclude uploads
+# wp-content/uploads/
+
+# Cache
+wp-content/cache/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/object-cache.php
+
+# Composer/Node
+vendor/
+node_modules/
+npm-debug.log
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

@@ -1,0 +1,8 @@
+# phpstorm project files
+.idea
+/.idea
+
+
+deploy*.php
+css/custom-*.css
+css/style-editor.css

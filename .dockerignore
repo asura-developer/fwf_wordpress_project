@@ -1,0 +1,35 @@
+# Git files
+.git
+.gitignore
+
+# IDE files
+.idea
+.vscode
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node modules (if any)
+node_modules
+npm-debug.log
+
+# Docker files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Backup files
+*.sql
+*.sql.gz
+*.zip
+*.tar.gz
+wp-content/ai1wm-backups/
+wp-content/updraft/
+wp-content/upgrade/
+
+# Logs
+*.log
