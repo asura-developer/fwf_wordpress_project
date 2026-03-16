@@ -1,37 +1,31 @@
 version: '3.8'
 
 services:
-  # MySQL Database
   db:
     image: mysql:8.0
     container_name: fwf_mysql
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-rootpassword}
-      MYSQL_DATABASE: ${MYSQL_DATABASE:-wordpress_db}
-      MYSQL_USER: ${MYSQL_USER:-wordpress}
-      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-wordpress_password}
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-fwf_wordpress_db}
+      MYSQL_USER: ${MYSQL_USER:-fwf_wordpress_user}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-FwfPassword2026}
     volumes:
       - db_data:/var/lib/mysql
     networks:
       - wordpress_network
-    ports:
-      - "3306:3306"
 
-  # WordPress Application
   wordpress:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: sovanra/fwf-wordpress-website:lastest
     container_name: fwf_wordpress
     restart: always
     depends_on:
       - db
     environment:
       WORDPRESS_DB_HOST: db:3306
-      WORDPRESS_DB_NAME: ${MYSQL_DATABASE:-wordpress_db}
-      WORDPRESS_DB_USER: ${MYSQL_USER:-wordpress}
-      WORDPRESS_DB_PASSWORD: ${MYSQL_PASSWORD:-wordpress_password}
+      WORDPRESS_DB_NAME: ${MYSQL_DATABASE:-fwf_wordpress_db}
+      WORDPRESS_DB_USER: ${MYSQL_USER:-fwf_wordpress_user}
+      WORDPRESS_DB_PASSWORD: ${MYSQL_PASSWORD:-FwfPassword2026}
     volumes:
       - ./wp-content:/var/www/html/wp-content
       - ./wp-config.php:/var/www/html/wp-config.php
@@ -40,10 +34,8 @@ services:
     networks:
       - wordpress_network
 
-  # phpMyAdmin for database management
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:latest
-    platform: linux/amd64
     container_name: fwf_phpmyadmin
     restart: always
     depends_on:
@@ -51,7 +43,6 @@ services:
     environment:
       PMA_HOST: db
       PMA_PORT: 3306
-      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-rootpassword}
     ports:
       - "8081:80"
     networks:
