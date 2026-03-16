@@ -56,3 +56,5 @@ npm-debug.log
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+!wp-config.php
