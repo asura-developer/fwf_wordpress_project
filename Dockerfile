@@ -20,6 +20,9 @@ WORKDIR /var/www/html
 # Copy WordPress files
 COPY --chown=www-data:www-data . /var/www/html/
 
+# Ensure local secret files are not baked into the web root.
+RUN rm -f /var/www/html/.env /var/www/html/.env.*
+
 # Set proper permissions
 RUN chown -R www-data:www-data /var/www/html \
     && find /var/www/html -type d -exec chmod 755 {} \; \

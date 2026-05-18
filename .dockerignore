@@ -13,13 +13,16 @@
 .DS_Store
 Thumbs.db
 
+# Configuration files (keep local only)
+.env
+.env.*
+
 # Node modules (if any)
 node_modules
 npm-debug.log
 
 # Docker files
-Dockerfile
-docker-compose.yml
+
 .dockerignore
 
 # Backup files
@@ -27,9 +30,7 @@ docker-compose.yml
 *.sql.gz
 *.zip
 *.tar.gz
-wp-content/ai1wm-backups/
-wp-content/updraft/
-wp-content/upgrade/
+
 
 # Logs
 *.log
